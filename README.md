@@ -7,12 +7,13 @@ Setup:
     npm start
 
 Endpoints:
+routes
 
     POST   /api/products
     GET    /api/products?category=&search=&minPrice=&maxPrice=&sort=-price&page=1&limit=10
     GET    /api/products/:id
     PUT    /api/products/:id
     DELETE /api/products/:id
-    PATCH  /api/products/:id/stock     { "change": 10 }
+    PATCH  /api/products/:id/stock     
     GET    /api/products/low-stock
     GET    /api/products/summary
